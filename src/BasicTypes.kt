@@ -23,8 +23,6 @@ fun typeExercises() {
     val d: Long = 100_000_000_000_000
     val e: Boolean = false
     val f: Char = '\n'
-
-    println(d)
 }
 
 
