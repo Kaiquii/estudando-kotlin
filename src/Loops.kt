@@ -4,7 +4,6 @@ fun main() {
     }
 
     println("\n-------------------------------") // esse /n é a mesma coisa do <br/>
-    cokkie()
 }
 
 fun cokkie() {
@@ -15,7 +14,6 @@ fun cokkie() {
     }
 
     println("-------------------------------")
-    cakesCount()
 }
 
 fun cakesCount() {
