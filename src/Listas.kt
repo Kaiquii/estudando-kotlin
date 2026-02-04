@@ -33,8 +33,13 @@ fun ListAndValue() {
     val list = mapOf("Mouse" to 100, "Teclados" to 20, "Monitores" to 35)
     println(list)
     println("O valor de mouse em estoque é ${list["Mouse"]}")
+    println("Esse mapa tem ${list.count()} itens")
+    println(list.containsKey("Teclados")) // Verificar se tem pela key, da pra fazer por string e int
     println("------------------------------------")
     val juiceMenu: MutableMap<String, Int> = mutableMapOf("Maça" to 15, "Kiwi" to 15, "Laranja" to 35)
+    juiceMenu["Coco"] = 150 // Adicionar itens na lista
+    juiceMenu.remove("Laranja")
+    println("Maça" in juiceMenu.keys) // Verificar se tem o item pela key
+    println(200 in juiceMenu.values) // Verificar de tem pelo valor
     println(juiceMenu)
 }
-
