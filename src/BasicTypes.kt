@@ -6,6 +6,8 @@ fun main() {
     customers *= 2 // multiplication
 
     println(customers)
+
+    typeAnd()
 }
 
 fun typeAnd() {
