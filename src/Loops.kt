@@ -1,4 +1,4 @@
-fun main() {
+fun loops() {
     for (number in 1..5) {
         print(number)
     }

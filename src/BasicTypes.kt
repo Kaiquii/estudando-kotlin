@@ -1,4 +1,4 @@
-fun main() {
+fun basicTypes() {
     var customers = 10
 
     customers += 3 // soma

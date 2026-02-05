@@ -1,4 +1,4 @@
-fun main() {
+fun list() {
     val lista = listOf("Letra A", "Letra B", "Letra C")
     val lista2: MutableList<String> = mutableListOf("Maçã", "Banana", "Melancia", "Melão")
 

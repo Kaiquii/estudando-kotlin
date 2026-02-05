@@ -1,4 +1,4 @@
-fun main() {
+fun controle() {
     val obj = "Hello"
 
     val result = when (obj) {
