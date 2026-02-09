@@ -31,3 +31,24 @@ fun registerUser(username: String, email: String): String {
 
     return "Usuário cadastrado com sucesso: $username"
 }
+
+fun toSeconds(time: String): (Int) -> Int = when (time) {
+    "hour" -> { value -> value * 60 * 60 }
+    "minute" -> { value -> value * 60 }
+    "second" -> { value -> value }
+    else -> { value -> value }
+}
+
+fun functionTime() {
+    val timesInMinutes = listOf(2, 10, 15, 1)
+    val min2sec = toSeconds("minutes")
+    val totalTimeInSeconds = timesInMinutes.map(min2sec).sum()
+    println("O tempo total é de $totalTimeInSeconds segundos")
+}
+
+fun maiusculo() {
+//    val text = "ola"
+//    println(text.uppercase())
+
+    println({text: String -> text.uppercase() }("hello"))
+}
