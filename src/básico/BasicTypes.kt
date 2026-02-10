@@ -1,3 +1,5 @@
+package `básico`
+
 fun basicTypes() {
     var customers = 10
 

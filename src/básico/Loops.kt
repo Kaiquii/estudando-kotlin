@@ -1,3 +1,5 @@
+package `básico`
+
 fun loops() {
     for (number in 1..5) {
         print(number)

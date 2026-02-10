@@ -1,3 +1,5 @@
+package `básico`
+
 fun controle() {
     val obj = "Hello"
 
@@ -12,7 +14,7 @@ fun controle() {
     farolUpgrade()
 }
 
-fun farol() { // faz a mesma coisa do farolUpgrade, porem menos verboso
+fun farol() { // faz a mesma coisa do básico.farolUpgrade, porem menos verboso
     val trafficLightState = "Red"
 
     val trafficAction = when {

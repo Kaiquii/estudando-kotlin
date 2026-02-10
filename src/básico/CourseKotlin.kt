@@ -1,4 +1,6 @@
-//fun courseKotlin() {
+package `básico`
+
+//fun básico.courseKotlin() {
 //    val message1: Int = 5
 //    val message2: Int = 10
 //    println("Eu tenho ${message1 + message2} de mensagens na minha caixa de entrada")

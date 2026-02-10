@@ -1,8 +1,10 @@
+package `básico`
+
 fun hello() {
     return println("Olá Mundo!")
 }
 
-//fun sum(x: Int, y: Int): Int {
+//fun básico.sum(x: Int, y: Int): Int {
 //    return x + y
 //}
 
@@ -50,5 +52,5 @@ fun maiusculo() {
 //    val text = "ola"
 //    println(text.uppercase())
 
-    println({text: String -> text.uppercase() }("hello"))
+    println({text: String -> text.uppercase() }("básico.hello"))
 }

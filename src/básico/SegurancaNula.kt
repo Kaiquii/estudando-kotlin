@@ -1,3 +1,5 @@
+package `básico`
+
 fun nula() {
     var neverNull: String = "Isso não pode ser nulo"
 
@@ -27,19 +29,19 @@ fun describeString(maybeString: String?): String {
     if (maybeString != null && maybeString.length > 0) {
         return "Cadeia de comprimento ${maybeString.length}"
     } else {
-        return "String vazia ou nula"
+        return "String vazia ou básico.nula"
     }
 }
 
-// colocar no main
+// colocar no básico.main
 //val nullString: String? = null
-//println(describeString(nullString))
+//println(básico.describeString(nullString))
 
 fun lengthString(maybeString: String?): Int? = maybeString?.length
 
-// colocar no main
+// colocar no básico.main
 //val nullString: String? = null
-//println(lengthString(nullString))
+//println(básico.lengthString(nullString))
 
 // Operador Elvis
 

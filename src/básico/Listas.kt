@@ -1,3 +1,5 @@
+package `básico`
+
 fun list() {
     val lista = listOf("Letra A", "Letra B", "Letra C")
     val lista2: MutableList<String> = mutableListOf("Maçã", "Banana", "Melancia", "Melão")
@@ -17,9 +19,9 @@ fun list() {
     println("A lista tem ${lista2.count()} itens")
     println("Banana" in lista2) // Verificar se um item está na Lista
     println("-----------------------------------")
-    listAddandRemove() // Usando a função no main
+    listAddandRemove() // Usando a função no básico.main
     println("-----------------------------------")
-    ListAndValue() // Usando a função no main
+    ListAndValue() // Usando a função no básico.main
 }
 
 fun listAddandRemove() {
