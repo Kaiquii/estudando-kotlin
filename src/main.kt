@@ -1,8 +1,9 @@
-import Intermediário.getNextAddress
-import Intermediário.sendNotification
+import Intermediário.client
 
 
 fun main() {
-    val address: String = getNextAddress()
-    sendNotification(address)
+    client.token = "asdf"
+    client.connect()
+    client.authenticate()
+    client.getData()
 }
