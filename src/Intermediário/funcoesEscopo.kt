@@ -44,3 +44,7 @@ val client = Client()
 fun medalhas() {
     val medals: List<String> = listOf("Gold", "Silver", "Bronze")
 }
+
+fun print() {
+    println("Ola mundo")
+}
